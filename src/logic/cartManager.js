@@ -1,5 +1,5 @@
 import { STATUS_TYPES } from "../utils.js";
-import ProductManager from "./ProductManager.js";
+import ProductManager from "./productManager.js";
 
 export default class CartManager {
   constructor(path) {
