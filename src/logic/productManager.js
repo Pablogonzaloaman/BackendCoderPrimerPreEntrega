@@ -1,7 +1,6 @@
 import fs, { writeFileSync, readFileSync } from "fs";
 import { STATUS_TYPES, PRODUCT_DICCIONARY } from "../utils.js";
 
-/* Agregar modulos archivos */
 export default class ProductManager {
   constructor(path) {
     this.path = path;
@@ -49,12 +48,14 @@ export default class ProductManager {
         !this.products.some((pro) => pro.code === product.code) ||
         this.modeproduct == false
       ) {
-        this.products.push({
+        let index = this.products.length - 1;
+        product = {
           ...product,
-          id: this.products.length,
-        });
+          id: this.products[index].id + 1,
+        };
+        this.products.push(product);
         this.writeFile(this.products);
-        msg = [`The product add succesfully `, STATUS_TYPES.INFO];
+        msg = [product, STATUS_TYPES.INFO];
       } else {
         msg = ["The product is already repeated", STATUS_TYPES.WARNING];
       }
@@ -83,7 +84,7 @@ export default class ProductManager {
       if (product.find((proid) => proid.id == id)) {
         product.forEach((e) => {
           if (e.id != id) {
-            productsnew.push({ ...e, id: productsnew.length });
+            productsnew.push({ ...e });
           } else {
             productdelete = e;
           }
@@ -117,14 +118,3 @@ export default class ProductManager {
     return data;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
