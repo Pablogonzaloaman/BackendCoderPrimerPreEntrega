@@ -28,7 +28,7 @@ export const FETCHINGS = async (url, params, method) => {
       .then((response) => response.json())
       .catch((error) => error);
   } else if (method === VERBS_HTTP.PUT) {
-    /* Pendiente */
+    
   } else if (method === VERBS_HTTP.DELETE) {
     res = await fetch(`${url}${params}`, {
       method: "DELETE",

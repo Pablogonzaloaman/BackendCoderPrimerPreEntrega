@@ -1,12 +1,4 @@
 import app from "./app.js";
-import { PORT } from "./config.js";
-import middlewares from "../src/middlewares.js";
-
-middlewares(app);
-
-app.listen(PORT, () => {
-  console.log("Server listening on port", PORT);
-});import app from "./app.js";
 import middlewares from "./middlewares.js";
 import handlebars from "express-handlebars";
 import config from "./config.js";

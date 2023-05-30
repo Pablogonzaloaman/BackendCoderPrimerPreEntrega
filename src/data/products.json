@@ -1,229 +1,30 @@
 [
-  {
-    "title": "producto prueba",
-    "descripcion": "esto es un producto prueba",
-    "price": 200,
-    "thumbnail": "Sin Imagen",
-    "code": "abc12234",
-    "stock": 25,
-    "id": 1
-  },
-  {
-    "title": "producto prueba",
-    "descripcion": "esto es un producto prueba",
-    "price": 200,
-    "thumbnail": "Sin Imagen",
-    "code": "abc12d34",
-    "stock": 25,
-    "id": 2
-  },
-  {
-    "title": "producto prueba",
-    "descripcion": "esto es un producto prueba",
-    "price": 200,
-    "thumbnail": "Sin Imagen",
-    "code": "abc1y2d34",
-    "stock": 25,
-    "id": 6
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gjfggsd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 7
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gjfrggsd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 8
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gagjdggsd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 10
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gatgfftd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 15
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gatgfftfd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 16
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gatgsfftfd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 17
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gatgssfftfd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 18
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gagtffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 20
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gagtfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 21
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gasfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 22
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gassfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 23
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gastassfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 24
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gasfssfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 25
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gashfssfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 26
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gsashfssfffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 27
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gsashfssfsffd",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 28
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gsads",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 29
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gsasds",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 30
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gsfasds",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 31
-  },
-  {
-    "title": "Deje de ser producto de prueba",
-    "description": "Te describo que soy algo...",
-    "price": 200,
-    "code": "gsaasds",
-    "stock": 25,
-    "status": true,
-    "category": "asd",
-    "id": 32
-  }
+    {
+        "title": "tomate prueba",
+        "descripcion": "esto es un tomate prueba",
+        "price": 189,
+        "thumbnail": "Sin Imagen",
+        "code": "555",
+        "stock": 25,
+        "id": 1
+    },
+    {
+        "title": "tomate prueba",
+        "descripcion": "esto es un tomate prueba",
+        "price": 189,
+        "thumbnail": "Sin Imagen",
+        "code": "556",
+        "stock": 25,
+        "id": 2
+    },
+    {
+        "title": "tomate prueba",
+        "descripcion": "esto es un tomate prueba",
+        "price": 189,
+        "thumbnail": "Sin Imagen",
+        "code": "557",
+        "stock": 25,
+        "id": 6
+    },
+ 
 ]
