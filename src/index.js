@@ -7,20 +7,23 @@ import { PORT } from "./config.js";
 import { SocketIo } from "./sockets.js";
 import { Server as ServerWebSocket } from "socket.io";
 /* Initialization  Http Server*/
-const httpserver = http.createServer(app);
+// const httpserver = http.createServer(app);
 
 /* Engine Template */
 app.engine("handlebars", handlebars.engine());
 
 /* MiddleWares */
-middlewares(app);
+middlewares(app)
+
+const appIniicializando = app.listen(PORT,() => {
+    console.log("Server listening on port",PORT);})
 
 /* Sockets */
-export const io = new ServerWebSocket(httpserver);
+export const io = new ServerWebSocket(appIniicializando);
 SocketIo(io);
 /* Config */
 config(app);
 
 /* Server Listen */
-httpserver.listen(PORT);
-console.log("Server listening on port", +PORT);
+// httpserver.listen(PORT);
+// console.log("Server listening on port", +PORT);

@@ -6,7 +6,7 @@ export const SocketIo = (io) => {
     console.log("Client connected");
     socket.on("deleteproduct", async (id) => {
       let res = await FETCHINGS(
-        "http://localhost:8080/api/products/",
+        "http://localhost:6766/api/products/",
         id,
         VERBS_HTTP.DELETE
       );
@@ -16,7 +16,7 @@ export const SocketIo = (io) => {
     socket.on("newproduct", async (pro) => {
       let body = pro;
       let res = await FETCHINGS(
-        "http://localhost:8080/api/products",
+        "http://localhost:6766/api/products",
         body,
         VERBS_HTTP.POST
       );

@@ -9,4 +9,4 @@ export default (app) => {
   app.set("view engine", "handlebars");
 };
 
-export const PORT = 8080;
+export const PORT = 6766;
